@@ -1,16 +1,41 @@
-# login_with_list_navigation
+# 📦 Flutter Login + Name List App
 
-A new Flutter project.
+## 📌 Description
+This Flutter project implements a **Login Screen** with form validation and a **Name List Screen** with navigation to a **Name Detail Screen**.  
 
-## Getting Started
+**Features:**
+- Login screen with email & password validation
+- Password visibility toggle
+- Name list displayed in a `ListView`
+- Tap on name to navigate to a detail screen
+- Clean UI using Cards, AppBar, and ListTile
+- Fully separated files for better organization
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Requirements
+- Flutter SDK >= 3.0
+- Dart >= 2.17
+- Android Studio, VS Code, or any preferred IDE
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 File Structure
+flutter-login-list-app/
+│── lib/
+│ ├── main.dart # Entry point
+│ ├── login_screen.dart # Login screen
+│ └── name_list_screen.dart # Name list & detail screens
+│── pubspec.yaml
+│── README.md
+
+
+---
+
+## ▶️ How to Run Locally
+1. Clone the repository:
+```bash
+git clone https://github.com/Mohd063/login_with_list_navigation.git
+cd login_with_list_navigation
+flutter pub get
+flutter run
